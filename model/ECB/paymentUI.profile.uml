@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_rKoY4GD3Eeyg4KBWnTZrhQ" name="paymentUI" metaclassReference="_rKrcMGD3Eeyg4KBWnTZrhQ">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rKsqUGD3Eeyg4KBWnTZrhQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_rKsqUWD3Eeyg4KBWnTZrhQ" name="paymentUI" nsURI="http:///schemas/paymentUI/_rKsDQ2D3Eeyg4KBWnTZrhQ/0" nsPrefix="paymentUI">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rKsqV2D3Eeyg4KBWnTZrhQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rKsqWGD3Eeyg4KBWnTZrhQ" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rKsqWWD3Eeyg4KBWnTZrhQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rKsqWmD3Eeyg4KBWnTZrhQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rKsqW2D3Eeyg4KBWnTZrhQ" key="Date" value="12/19/21, 11:15 PM"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rKsqXGD3Eeyg4KBWnTZrhQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_rKsqUmD3Eeyg4KBWnTZrhQ" name="boundary">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rKsqU2D3Eeyg4KBWnTZrhQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rKq1IGD3Eeyg4KBWnTZrhQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_rKsqVGD3Eeyg4KBWnTZrhQ" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_rKrcMGD3Eeyg4KBWnTZrhQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_rKq1IGD3Eeyg4KBWnTZrhQ" name="boundary">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rKsDQmD3Eeyg4KBWnTZrhQ" name="base_Class" association="_rKsDQGD3Eeyg4KBWnTZrhQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_rKsDQGD3Eeyg4KBWnTZrhQ" name="Class_boundary" memberEnd="_rKsDQWD3Eeyg4KBWnTZrhQ _rKsDQmD3Eeyg4KBWnTZrhQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_rKsDQWD3Eeyg4KBWnTZrhQ" name="extension_boundary" type="_rKq1IGD3Eeyg4KBWnTZrhQ" aggregation="composite" association="_rKsDQGD3Eeyg4KBWnTZrhQ"/>
+  </packagedElement>
+</uml:Profile>

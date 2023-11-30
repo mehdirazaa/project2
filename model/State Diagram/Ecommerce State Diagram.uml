@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_LZE20F-6EeyQW63vjzyf6w" name="Ecommerce State Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_LadW4F-6EeyQW63vjzyf6w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_LZV8kF-6EeyQW63vjzyf6w" name="Ecommerce">
+    <region xmi:type="uml:Region" xmi:id="_LZftkF-6EeyQW63vjzyf6w" name="[Search]">
+      <transition xmi:type="uml:Transition" xmi:id="_Ss2UgF-8EeyQW63vjzyf6w" source="_7_wuAF-6EeyQW63vjzyf6w" target="__huY4F-6EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_kCnGcF-8EeyQW63vjzyf6w" name="[First time visiting]" source="__huY4F-6EeyQW63vjzyf6w" target="_EOitUF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_4CBbMF-8EeyQW63vjzyf6w" name="[Already have an account]" source="__huY4F-6EeyQW63vjzyf6w" target="_FAr78F-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_CBc4wF-9EeyQW63vjzyf6w" source="_H2JGIF-7EeyQW63vjzyf6w" target="_-uyOIF-8EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="__bE28F-9EeyQW63vjzyf6w" source="_EOitUF-7EeyQW63vjzyf6w" target="_FAr78F-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_B4bDIF--EeyQW63vjzyf6w" source="_FAr78F-7EeyQW63vjzyf6w" target="_ViF4wF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_D21QkF--EeyQW63vjzyf6w" name="[View cart]" source="_ViF4wF-7EeyQW63vjzyf6w" target="_YFJEUF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_HARGsF--EeyQW63vjzyf6w" name="[Search]" source="_ViF4wF-7EeyQW63vjzyf6w" target="_fxEOMF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_KMgZMF--EeyQW63vjzyf6w" source="_fxEOMF-7EeyQW63vjzyf6w" target="_jOMcYF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_M5gK8F--EeyQW63vjzyf6w" name="[Found]" source="_jOMcYF-7EeyQW63vjzyf6w" target="_iUgbUF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_TxpugF--EeyQW63vjzyf6w" name="[Make decision]" source="_YFJEUF-7EeyQW63vjzyf6w" target="_c0NbgF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_XFgr8F--EeyQW63vjzyf6w" source="_c0NbgF-7EeyQW63vjzyf6w" target="_tzEwYF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_ZwFb0F--EeyQW63vjzyf6w" source="_iUgbUF-7EeyQW63vjzyf6w" target="_u-mvYF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_bAFEEF--EeyQW63vjzyf6w" name="Product added" source="_u-mvYF-7EeyQW63vjzyf6w" target="_tN0uQF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_dh3EUF--EeyQW63vjzyf6w" source="_tN0uQF-7EeyQW63vjzyf6w" target="_pzDQgF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_z5yIkF--EeyQW63vjzyf6w" name="[See updated cart]" source="_pzDQgF-7EeyQW63vjzyf6w" target="_fxEOMF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_alar4F-_EeyQW63vjzyf6w" source="_tzEwYF-7EeyQW63vjzyf6w" target="_S_tz4F_BEeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_rqkO8F-_EeyQW63vjzyf6w" name="[Show]" source="_fxEOMF-7EeyQW63vjzyf6w" target="_YFJEUF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_vNPrgF-_EeyQW63vjzyf6w" source="_c0NbgF-7EeyQW63vjzyf6w" target="_fxEOMF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_wvs8wF-_EeyQW63vjzyf6w" name="[Done with]" source="_c0NbgF-7EeyQW63vjzyf6w" target="_H2JGIF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_dPCkEF_AEeyQW63vjzyf6w" name="[See other products]" source="_fxEOMF-7EeyQW63vjzyf6w" target="_iUgbUF-7EeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_X_uxIF_BEeyQW63vjzyf6w" name="[Not found]" source="_jOMcYF-7EeyQW63vjzyf6w" target="_S_tz4F_BEeyQW63vjzyf6w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_goOQ8F_BEeyQW63vjzyf6w" source="_S_tz4F_BEeyQW63vjzyf6w" target="_ViF4wF-7EeyQW63vjzyf6w"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_7_wuAF-6EeyQW63vjzyf6w"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="__huY4F-6EeyQW63vjzyf6w" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_EOitUF-7EeyQW63vjzyf6w" name="Register"/>
+      <subvertex xmi:type="uml:State" xmi:id="_FAr78F-7EeyQW63vjzyf6w" name="Login"/>
+      <subvertex xmi:type="uml:State" xmi:id="_H2JGIF-7EeyQW63vjzyf6w" name="Checkout"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_ViF4wF-7EeyQW63vjzyf6w" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_YFJEUF-7EeyQW63vjzyf6w" name="See shoping cart"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_c0NbgF-7EeyQW63vjzyf6w" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_fxEOMF-7EeyQW63vjzyf6w" name="Search products"/>
+      <subvertex xmi:type="uml:State" xmi:id="_iUgbUF-7EeyQW63vjzyf6w" name="View Products"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_jOMcYF-7EeyQW63vjzyf6w" kind="choice"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_pzDQgF-7EeyQW63vjzyf6w" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_tN0uQF-7EeyQW63vjzyf6w" name="Add to cart"/>
+      <subvertex xmi:type="uml:State" xmi:id="_tzEwYF-7EeyQW63vjzyf6w" name="Remove items"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_u-mvYF-7EeyQW63vjzyf6w" kind="choice"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_-uyOIF-8EeyQW63vjzyf6w"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_S_tz4F_BEeyQW63vjzyf6w" name="" kind="join"/>
+    </region>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ap9rIF-zEeyDesdEz8bhTQ" name="component">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_arR5wF-zEeyDesdEz8bhTQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_qccFYF-zEeyDesdEz8bhTQ" name="webstore">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_pEunYF-6EeyDesdEz8bhTQ" name="user session">
+      <ownedReception xmi:type="uml:Reception" xmi:id="_prMKcF-6EeyDesdEz8bhTQ" name="Reception1"/>
+    </nestedClassifier>
+    <packagedElement xmi:type="uml:Component" xmi:id="_2tRk4F-zEeyDesdEz8bhTQ" name="search Engine">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Kuw3MGC6EeypptJpqgcCMg" client="_2tRk4F-zEeyDesdEz8bhTQ" supplier="_Qtk9sF-3EeyDesdEz8bhTQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="__t3boF-zEeyDesdEz8bhTQ" name="CopyOf_search Engine_1"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_CQUxUF-0EeyDesdEz8bhTQ" name="shpping cart">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_U8R0EGC6EeypptJpqgcCMg" client="_CQUxUF-0EeyDesdEz8bhTQ" supplier="_pEunYF-6EeyDesdEz8bhTQ" contract="_pEunYF-6EeyDesdEz8bhTQ"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MwGVcGC9EeypptJpqgcCMg" client="_CQUxUF-0EeyDesdEz8bhTQ" supplier="_mKW-wGC8EeypptJpqgcCMg" contract="_mKW-wGC8EeypptJpqgcCMg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_03l6IGC6EeypptJpqgcCMg" client="_CQUxUF-0EeyDesdEz8bhTQ" supplier="_ni9kkF-4EeyDesdEz8bhTQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_G2DmUF-0EeyDesdEz8bhTQ" name="uthentication">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_IMgOcGC9EeypptJpqgcCMg" client="_G2DmUF-0EeyDesdEz8bhTQ" supplier="_vpDt0GC8EeypptJpqgcCMg" contract="_vpDt0GC8EeypptJpqgcCMg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_KOwsAGC7EeypptJpqgcCMg" client="_G2DmUF-0EeyDesdEz8bhTQ" supplier="_E_qw8GC7EeypptJpqgcCMg"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_RY89UF-0EeyDesdEz8bhTQ" name="Ware house">
+    <packagedElement xmi:type="uml:Component" xmi:id="_WEjw0F-0EeyDesdEz8bhTQ" name="inventory">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_N86OMGC6EeypptJpqgcCMg" client="_WEjw0F-0EeyDesdEz8bhTQ" supplier="_Qtk9sF-3EeyDesdEz8bhTQ" contract="_Qtk9sF-3EeyDesdEz8bhTQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_aHWQ0F-0EeyDesdEz8bhTQ" name="Accounting">
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_RvPa4GC7EeypptJpqgcCMg" name="manage customer"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_z0Bu4GC7EeypptJpqgcCMg" name="manage account"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_hgwHUF-0EeyDesdEz8bhTQ" name="order">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_6cyBAGC6EeypptJpqgcCMg" client="_hgwHUF-0EeyDesdEz8bhTQ" supplier="_ni9kkF-4EeyDesdEz8bhTQ" contract="_ni9kkF-4EeyDesdEz8bhTQ"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_nGS4AGC7EeypptJpqgcCMg" client="_hgwHUF-0EeyDesdEz8bhTQ" supplier="_RvPa4GC7EeypptJpqgcCMg" contract="_RvPa4GC7EeypptJpqgcCMg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_kH03QF-0EeyDesdEz8bhTQ" name="customer">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MIPWIGC7EeypptJpqgcCMg" client="_kH03QF-0EeyDesdEz8bhTQ" supplier="_E_qw8GC7EeypptJpqgcCMg" contract="_E_qw8GC7EeypptJpqgcCMg"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_t7iRgGC7EeypptJpqgcCMg" client="_kH03QF-0EeyDesdEz8bhTQ" supplier="_RvPa4GC7EeypptJpqgcCMg" contract="_RvPa4GC7EeypptJpqgcCMg"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_JXbl8GC8EeypptJpqgcCMg" client="_kH03QF-0EeyDesdEz8bhTQ" supplier="_z0Bu4GC7EeypptJpqgcCMg" contract="_z0Bu4GC7EeypptJpqgcCMg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_mtw-wF-0EeyDesdEz8bhTQ" name="accounts">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_SlWHAGC8EeypptJpqgcCMg" client="_mtw-wF-0EeyDesdEz8bhTQ" supplier="_z0Bu4GC7EeypptJpqgcCMg" contract="_z0Bu4GC7EeypptJpqgcCMg"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Qtk9sF-3EeyDesdEz8bhTQ" name="search inventory"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ni9kkF-4EeyDesdEz8bhTQ" name="manage order"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_E_qw8GC7EeypptJpqgcCMg" name="manage customer"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_hukI4GC8EeypptJpqgcCMg" name="Interface8"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_iE3JAGC8EeypptJpqgcCMg" name="product search"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_mKW-wGC8EeypptJpqgcCMg" name="online shopping"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_vpDt0GC8EeypptJpqgcCMg" name="user session">
+    <ownedReception xmi:type="uml:Reception" xmi:id="_www8wGC8EeypptJpqgcCMg" name="sdas"/>
+  </packagedElement>
+</uml:Model>
